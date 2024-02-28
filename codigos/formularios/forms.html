@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div >
+        <div >
+            <h1> Cadastrar usuário </h1>
+            <form action="index.html" method="post">
+                <fieldset>
+                <legend>1.Dados Pessoais</legend>
+                <label for="fname">Nome:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="pwd">Senha:</label>
+                <input type="password" id="pwd" name="pwd" minlength="6">
+                <label for="conpwd">Confirma Senha:</label>
+                <input type="password" id="conpwd" name="conpwd" minlength="6">
+                <a>Idade:</a>
+                <input type="radio" id="a17" nome="selecionado" value="Acima de 17">
+                <label for="a17">Acima de 17</label><br>
+                <input type="radio" id="b17" nome="selecionado" value="Abaixo ou igual 17">
+                <label for="b17">Abaixo ou igual 17</label>
+            </fieldset>
+        </form>
+        <form action="index.html" method="post">
+            <fieldset>
+            <legend>2.Perfil</legend>
+            <label for="review">Descrição:</label>
+            <textarea name="review" id="review" cols="20" rows="2"></textarea>
+            <label for="perfil">Perfil de Trabalho:</label>
+            <select name="perfil" id="perfil">
+                <option value="Frond-End developer">Frond-End developer</option>
+            </select>
+            <a>Interesses:</a>
+            <input type="checkbox" id="prog" nome="esc" value="programador">
+            <label for="prog">Programador</label><br>
+            <input type="checkbox" id="de" nome="esc" value="desing">
+            <label for="de">Desing</label><br>
+            <input type="checkbox" id="ani" nome="esc" value="analista">
+            <label for="ani">analista</label>
+            </fieldset>
+            <button type="submit">Enviar dados</button>
+
+
+        </form>
+        </div>
+    </div>
+
+</body>
+</html>
