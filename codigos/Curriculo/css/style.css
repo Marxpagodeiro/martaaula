@@ -1,0 +1,41 @@
+h1.nome{
+    text-align: center;
+    color: blue;
+}
+div.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.dadosP{
+    background-color: #d8ede8;
+} 
+ol{
+    list-style-type: upper-alpha;
+    font-family: verdana;
+    font-weight: bolder;
+}
+
+div.FA,div.FC,div.SS{
+    border: 1px dashed black;
+    background-color: lightgray;
+    text-align: center;
+
+} 
+
+p{
+    font-family: verdana;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+h2{
+    background-color: #d8ede8;
+    font-family: verdana;
+}
+#Ac:hover,#Com:hover,#So:hover{
+    background-color: grey;
+}
