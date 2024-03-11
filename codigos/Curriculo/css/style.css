@@ -1,6 +1,7 @@
 h1.nome{
     text-align: center;
     color: blue;
+    font-family: verdana;
 }
 div.img{
     display: flex;
@@ -31,6 +32,9 @@ a{
 }
 a:hover{
     color: blue;
+}
+img{
+    position: relative;
 }
 h2{
     background-color: #d8ede8;
