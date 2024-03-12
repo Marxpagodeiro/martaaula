@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Modak&display=swap');
+
+
+#titulo{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+.tudo{
+    background-color: #1ca0d1;
+}
+.container{
+    background-color: #F0FFF0;
+    width: 960px;
+    margin: auto;
+}
+.rodapé,.cabeçalho{
+    background-color: #505245;
+}
+a:hover{
+    color: 	#228B22;
+
+}
+a{
+    text-decoration: none;
+}
+#img{
+    width: 960px;
+}
+.rodapé{
+    font-size: 30px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+h2{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
