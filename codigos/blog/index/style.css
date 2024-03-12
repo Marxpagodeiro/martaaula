@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+@font-face{
+    font-family: minhafonte;
+    src: url(lemonmilk/LEMONMILK-Light.otf);
+}
+#titulo{
+    font-family: minhafonte;
+    color: #FFFFFF;
+    font-size: 60px;
+}
+.tudo{
+    background-color: #515244;
+}
+.container{
+    background-color: #A9CF4C;
+    width: 960px;
+    margin: auto;
+}
+.rodapé,.cabeçalho{
+    background-color: #48A1D9;
+}
+a:hover{
+    color: 	#E9460B;
+
+}
+a{
+    text-decoration: none;
+}
+#img{
+    width: 960px;
+}
+.rodapé{
+    font-size: 15px;
+    font-family: minhafonte;
+    color:#515244;
+}
+.op,.centro{
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+div.Sites{
+    font-size: 10px;
+    text-align: left;
+}
+div.text{
+    font-size: 15px;
+    text-align: justify;
+    color:#515244;
+
+}
+h3{
+    color:#515244;
+}
+ul.men{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.men li{
+        float:left;
+      }
+      
+ul.men li a {
+        display: block;
+        color: #FFFFFF;;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+ul.men li a:hover {
+        background-color:#48A1D9;
+        color:black;
+      }
