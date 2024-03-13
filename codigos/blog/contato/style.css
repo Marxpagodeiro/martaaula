@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 @font-face{
@@ -18,7 +17,7 @@
     background-color: #A9CF4C;
     width: 960px;
     box-sizing: border-box;
-    margin:auto;
+    margin: auto;
 }
 .rodapé,.cabeçalho{
     background-color: #48A1D9;
@@ -26,6 +25,7 @@
 }
 a:hover{
     color: 	#E9460B;
+
 }
 a{
     text-decoration: none;
@@ -37,30 +37,15 @@ a{
     font-size: 15px;
     font-family: minhafonte;
     color:#515244;
+    margin: auto;
 }
-.op,.centro{
+.op{
     font-family: "Lemon", serif;
     font-weight: 400;
     font-style: normal;
-    margin: auto;
-}
-div.Sites{
-    font-size: 10px;
-    text-align: left;
-    margin: auto;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-div.text{
     font-size: 15px;
-    text-align: justify;
-    color:#515244;
     margin: auto;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-h3{
-    color:#515244;
+
 }
 
 ul.men{
@@ -85,3 +70,5 @@ ul.men li a:hover {
         background-color:#48A1D9;
         color:black;
       }
+
+
