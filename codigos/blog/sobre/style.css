@@ -47,7 +47,9 @@ a{
     margin: auto;
 
 }
-
+footer{
+    text-align: center;
+}
 ul.men{
     list-style-type: none;
     margin: 0;

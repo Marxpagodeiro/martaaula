@@ -47,6 +47,9 @@ a{
     margin: auto;
 
 }
+footer{
+    text-align: center;
+}
 
 ul.men{
     list-style-type: none;
@@ -70,5 +73,55 @@ ul.men li a:hover {
         background-color:#48A1D9;
         color:black;
       }
+.centro{
+    color: #FFFFFF;
+    font-family: minhafonte;
+    margin: auto;
+}
+label{
+    font-size: 20px;
+    font-family: minhafonte;
+}
+input[type=text],input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 2px solid #515244;
+    border-radius: 4px;
+}
+input[type=text]:focus{
+    background-color: #48A1D9;
+}
+input[type=email]:focus{
+    background-color: #48A1D9;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 2px solid #515244;
+    border-radius: 4px;
+}
+textarea:focus{
+    background-color: #48A1D9;
+}
+input[type=submit]{
+    border: none;
+    padding: 15px 100px;
+    margin: 4px 2px;
+    background-color: #48A1D9;
+    color: #FFFFFF;
 
+}
+input[type=reset]{
+    border: none;
+    padding: 15px 100px;
+    margin: 4px 2px;
+    background-color: #48A1D9;
+    color: #FFFFFF;
+    float:right;
+
+}
 
