@@ -78,8 +78,8 @@ h2{
     color: #FFFFFF;
 }
 table.tabela img{
-    width:80px;
-    height:100px;
+    max-width:150px;
+    min-width: 50px;
     border-radius: 25px;
     width: 100%;
 }

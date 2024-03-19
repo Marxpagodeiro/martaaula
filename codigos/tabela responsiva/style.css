@@ -1,0 +1,32 @@
+
+.container{
+    background-color: #E1AFD1;
+    width: 100%;
+    margin: auto;
+}
+table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    table-layout: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+header{
+    font-size: 1,5em;
+    text-align: center;
+}
+tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin: 100%;
+    text-align: center    
+
+}
+tr th{
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 100%;
+}
