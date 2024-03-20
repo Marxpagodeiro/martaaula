@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.form{
+    width: 40%;
+    margin:10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #E6E6FA;
+    display: block;
+}
+.form input[type=text],input[type=email],input[type=password]{
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    outline: 0;
+    box-shadow: 0 1px 0;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #FFF0F5;
+
+}
+.form label{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1em;
+}
+.form legend{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.form textarea{
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    outline: 0;
+    box-shadow: 0 1px 0;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #FFF0F5;
+    resize: none;
+}
+.form input[type=radio]{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1em;
+    display: block;
+    position:relative;
+    background-color: #FFF0F5;
+
+
+}
+.form label#lab{
+
+    display: inline-block;
+}
+.form a{
+    background-color: aquamarine;
+}
+.form input[type=checkbox]{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1em;
+    display: block;
+    position:relative;
+    background-color: #FFF0F5;
+}
+.form select{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.25em;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #FFF0F5;
+}

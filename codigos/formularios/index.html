@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+        <div class="form">
+            <h1> Cadastrar usuário </h1>
+            <form action="index.html" method="post">
+            <div class="form1">
+                <legend><a>1 </a>Dados Pessoais</legend>
+                <label for="fname">Nome:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="pwd">Senha:</label>
+                <input type="password" id="pwd" name="pwd" minlength="6">
+                <label for="conpwd">Confirma Senha:</label>
+                <input type="password" id="conpwd" name="conpwd" minlength="6">
+                <label for="int">Interesses: </label>
+                <input type="radio" id="Acima17" name="Idade">
+                <label for="Acima17">Acima de 17</label>
+                <input type="radio" id="Acima17" name="Idade">
+                <label for="Abaixo17">Abaixo ou igual 17</label>
+            </div>
+            <div class="form2">
+            <legend><a>2 </a>Perfil</legend>
+            <label for="review">Descrição:</label>
+            <textarea name="review" id="review" cols="60" rows="15"></textarea>
+            <label for="perfil">Perfil de Trabalho:</label>
+            <select name="perfil" id="perfil">
+                <option value="Frond-End developer">Frond-End developer</option>
+                <option value="Back-End developer">Back-End developer</option>
+            </select>
+            <label for="int">Interesses: </label>
+            <input type="checkbox" id="prog" name="esc1" value="programador">
+            <label id="lab1" for="prog">Programador</label>
+            <input type="checkbox" id="de" name="esc2" value="desing">
+            <label id="lab"  for="de">Desing</label>
+            <input type="checkbox" id="ani" name="esc3" value="analista">
+            <label id="lab" for="ani">analista</label>
+            </div>
+            <button type="submit">Enviar dados</button>
+
+
+        </form>
+        </div>
+
+</body>
+</html>
