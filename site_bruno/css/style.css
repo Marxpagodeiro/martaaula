@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+html{
+    font-size: 62.5%;
+}
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    
+}
+
+header{
+    background-color: #d4f4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:5rem; 
+    padding: 1rem;
+}
+body{
+    background-color: #f4fff9;
+    height:100vh; 
+    display:flex;  
+    flex-direction:column;  
+   
+}
+footer{
+    background-color: #d4f4e4;
+    text-align: center;
+    font-size: 1,2rem;
+    min-height:5rem; 
+    margin-top:auto;  
+    color: green;
+}
+.meio{
+    margin: auto;
+    text-align: center;
+}
+.meio h1{
+    font-family: "Parisienne", cursive;
+
+}
+.meio p{
+    font-family: "Playfair Display", serif;
+
+}
+.meio img{
+    width: 15%;
+    display: inline-block;
+}
+header img{
+    width: 10%;
+}
+ul,li {
+
+    list-style: none;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+.menu{
+    display: flex;
+}
+.menu ul,li{
+    margin-left:2rem;
+}
+.menu li a{
+    padding: 0,5rem;
+}
