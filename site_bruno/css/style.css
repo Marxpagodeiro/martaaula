@@ -10,7 +10,7 @@ html{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
     
 }
 
@@ -22,6 +22,7 @@ header{
     min-height:5rem; 
     padding: 1rem;
 }
+
 body{
     background-color: #f4fff9;
     height:100vh; 
@@ -32,34 +33,42 @@ body{
 footer{
     background-color: #d4f4e4;
     text-align: center;
-    font-size: 1,2rem;
+    font-size: 3rem;
     min-height:5rem; 
     margin-top:auto;  
     color: green;
 }
-.meio{
-    margin: auto;
+.flex{
+    display: flex;
+    max-width: 100rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.flex > section{
+    margin: 1rem;
+    flex: 1 1 25rem;
     text-align: center;
 }
-.meio h1{
+h1{
+    text-align: center;
     font-family: "Parisienne", cursive;
+    margin-top: 5rem;
+    font-size: 5rem;
 
 }
-.meio p{
-    font-family: "Playfair Display", serif;
-
+section p {
+    font-size: 2rem;
 }
-.meio img{
-    width: 15%;
-    display: inline-block;
+section img{
+    width: 100%;
 }
-header img{
-    width: 10%;
+ header img{
+    width: 8%;
 }
 ul,li {
 
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 3rem;
 }
 a{
     text-decoration: none;
@@ -68,9 +77,12 @@ a{
 .menu{
     display: flex;
 }
-.menu ul,li{
-    margin-left:2rem;
+.menu li{
+    margin-left:1rem;
 }
 .menu li a{
-    padding: 0,5rem;
+    padding: 1rem;
+}
+.menu li a:hover{
+    background-color: #f4fff9;
 }
