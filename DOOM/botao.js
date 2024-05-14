@@ -1,3 +1,3 @@
-function botao(){
-    
+function botaoalu(){
+    document.getElementById("aluno")   
 }
