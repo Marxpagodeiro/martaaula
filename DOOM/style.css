@@ -1,0 +1,44 @@
+html{
+    font-size: 62.5%;
+}
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    
+}
+body{
+    background-color: #f4fff9; 
+    display:flex;  
+    flex-direction:row;  
+    justify-content:space-around;
+    margin-top: 5rem;
+}
+#botaoProf{
+    background-color: bisque;
+    border-color:black;
+    border-radius: 0.8rem;
+    text-align: center;
+    color:black;
+    font-size: 2.5rem;
+    width: 20rem;
+    height: 4rem;
+    margin-left: 3rem;
+
+
+}
+#botaoAlu{
+    background-color: bisque;
+    border-color:black;
+    border-radius: 0.8rem;
+    text-align: center;
+    color:black;
+    font-size: 2.5rem;
+    width: 20rem;
+    height: 4rem;
+    margin-right: 3rem;
+
+
+}
