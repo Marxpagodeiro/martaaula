@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, ;
+
+}
+
+header {
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+}
+header .botao {
+    border: none;
+    width: 15rem;
+    height: 5rem;
+    background-color: #011e2c ;
+    color: white;
+    font-family: "Grand Hotel";
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+}
+header .botao:hover {
+    background-color: green;
+    color: white;
+}
