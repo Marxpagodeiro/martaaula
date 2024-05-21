@@ -5,17 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="scriptfomr.js" defer></script>
+    
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
-            <button class="botao">Menu</button>
-        </nav>
+        <div class="navbar">
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Menu</button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#">Home</a>
+              <a href="#">Sobre</a>
+              <a href="#">Contato</a>
+            </div>
+            </div> 
     </header>
 
-    <div>
-
+    <div class="form">
+            <legend>Login</legend>
+            <label for="fname">Usuário:</label>
+            <input type="text" id="usuario" name="fname" required>
+            <p id="alertaus" >Usuário deve ser preenchido</p>
+            <label for="pwd">Senha:</label>
+            <input type="password" id="senha" name="pwd" minlength="6" required>
+            <p id="alertas" >Senha deve ser preenchida</p>
+            <button type="submit" id="entrar" >Acessar</button>
     </div>
 </body>
 </html>
